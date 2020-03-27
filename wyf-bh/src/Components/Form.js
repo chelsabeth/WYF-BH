@@ -95,9 +95,12 @@ export default function Form() {
 
     return (
         <form onSubmit={formSubmit}>
-              <Link to={"/"}>
+            <Link to={"/"}>
                 <div>Home</div>
-                </Link>
+            </Link>
+            {/* <Link to={"/about"}>
+                <div>About</div>
+            </Link> */}
             <h1>If you could be any flavor...what flavor would you be?</h1>
             <label htmlFor="name">
                 Name: 
